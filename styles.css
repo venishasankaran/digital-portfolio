@@ -1,0 +1,84 @@
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-content img {
+    position:absolute;
+    left: 540px;
+    width: 100px; 
+    border-radius:50%; 
+}
+
+#header-content h1 {
+    font-size: 24px;
+    margin: 10px;
+}
+
+#header-content p {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+/* Add styling for each section as needed */
+
+/* Example styles for individual sections */
+#about {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+#education {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+#skills {
+    background-color: #d0d0d0;
+    color: #333;
+}
+
+#certificates {
+    background-color: #c0c0c0;
+    color: #333;
+}
+
+#resume {
+    background-color: #b0b0b0;
+    color: #333;
+}
